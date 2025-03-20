@@ -89,12 +89,12 @@ export const NAV_ELEMENTS_VARIANT = {
         navLinks: [
             {
                 text: "Summary",
-                href: "/bank",
+                href: "/dashboard",
             },
-            // { text: "Transfers", href: "/bank" },
-            { text: "Deposits", href: "/bank" },
-            // { text: "External Accounts", href: "/bank" },
-            { text: "Statements", href: "/bank" },
+            // { text: "Transfers", href: "/dashboard" },
+            { text: "Deposits", href: "/dashboard" },
+            // { text: "External Accounts", href: "/dashboard" },
+            { text: "Statements", href: "/dashboard" },
         ],
         navLinkColor: "gradient-bank",
         popoverMessage: "Thank you for banking with us, ",

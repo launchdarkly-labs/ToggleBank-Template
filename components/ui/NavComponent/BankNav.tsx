@@ -16,6 +16,7 @@ import { useRouter } from "next/router";
 import LoginContext from "@/utils/contexts/login";
 import Link from "next/link";
 import LiveLogsContext from "@/utils/contexts/LiveLogsContext";
+import withRouter from "next/router";
 
 const BankNav = () => {
 	const { isLoggedIn } = useContext(LoginContext);
